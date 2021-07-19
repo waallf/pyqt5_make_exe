@@ -10,3 +10,4 @@ pyinstaller -F -w main.py
 a = Analysis(['main.py','所有.py文件'],  
     datas = [('需要导入的外部文件1'，'.'),('需要导入的外部文件2'，'.')],  
         .....)  
+pyinstaller -D main.spec
