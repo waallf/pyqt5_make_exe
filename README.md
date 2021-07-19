@@ -1,6 +1,6 @@
 # pyqt5_make_exe
 pyqt5编译exe  
-###安装pyinstaller  
+### 安装pyinstaller  
 pip installer pyinstaller  
 ### 直接编译  
 pyinstaller -F -w main.py  
